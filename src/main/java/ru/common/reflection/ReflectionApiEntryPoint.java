@@ -28,7 +28,7 @@ public class ReflectionApiEntryPoint
 		sout.println("getSimpleName -> " +arrayOfMyClasses.getClass().getSimpleName());
 		sout.println("getCanonicalName -> " +arrayOfMyClasses.getClass().getCanonicalName());
 		sout.println("getTypeName -> " +arrayOfMyClasses.getClass().getTypeName());
-		sout.println("only for arrays print type name of the component: getComponentType.getName -> " + arrayOfMyClasses.getClass().getComponentType().getName());
+		sout.println("only for arrays print type name of the component: getComponentTyp e.getName -> " + arrayOfMyClasses.getClass().getComponentType().getName());
 
 		sout.println("============================================");
 		sout.println("Package for class MyClassExample");
